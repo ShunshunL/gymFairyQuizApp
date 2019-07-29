@@ -6,10 +6,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-image: url('https://www.t-nation.com/system/publishing/articles/10005529/original/6-Reasons-You-Should-Never-Open-a-Gym.png?1509471214');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-image: url('https://www.t-nation.com/system/publishing/articles/10005529/original/6-Reasons-You-Should-Never-Open-a-Gym.png?1509471214');   
+    background-repeat: round;
 }
 
 .logo {
@@ -30,7 +28,21 @@ ul {
 .quizStart {
     color: white;
     text-align: center;
+    margin-top: 30px;
 }
 
+button {
+   font-family: 'Lato', sans-serif;
+    padding: 15px 32px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: darkslategrey;
+    border-radius: 4px;
+}
+
+button:hover {
+  color:yellowgreen;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 
