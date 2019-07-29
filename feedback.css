@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://www.t-nation.com/system/publishing/articles/10005529/original/6-Reasons-You-Should-Never-Open-a-Gym.png?1509471214');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.logo {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+h1,h2 {
+    color:white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+     padding: 15px 32px;
+     margin-top: 50px;
+     font-size: 18px;
+     color: darkslategrey;
+     border-radius: 4px;
+     margin-left: 60%;
+ }
+ 
+ button:hover {
+   color:yellowgreen;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ 
+ 
+
