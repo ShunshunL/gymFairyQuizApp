@@ -7,7 +7,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-image: url('https://www.t-nation.com/system/publishing/articles/10005529/original/6-Reasons-You-Should-Never-Open-a-Gym.png?1509471214');
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: cover;
     height: 100%;
 }
