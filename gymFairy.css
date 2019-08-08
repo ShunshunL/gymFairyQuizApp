@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     font-family: 'Lato', sans-serif;
-    background-image: url('https://wallpapercave.com/wp/wp2639566.jpg');   
+}
+
+.container {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://wallpapercave.com/wp/wp2639566.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 
@@ -20,7 +24,6 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
 }
 
 ul {
@@ -89,7 +92,6 @@ fieldset {
 }
 
 span:hover {
-    background-color: rgba(242, 215, 14, 0.838);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
