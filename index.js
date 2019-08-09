@@ -14,9 +14,9 @@ function startQuiz() {
 function generateQuestion() {
     if (questionNumber < STORE.length) {
         return `<div class="question-${questionNumber}">
-        <h2>${STORE[questionNumber].question}</h2>
         <form>
         <fieldset>
+        <h2>${STORE[questionNumber].question}</h2>
         <label class="answerOption">
         <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
         <span class="answers">${STORE[questionNumber].answers[0]}</span>
@@ -54,7 +54,15 @@ function renderResults() {
 
 function restartQuiz() {
     $('main').on('click', '.restartButton', function (event) {
-        location.reload();
+        questionNumber = 0;
+        score = 0;
+        $('.questionNumber').text(0);
+        $('.score').text(0);
+        $('.results').remove();
+        $('.quizStart').toggle();
+        renderQuestion();
+        answerCorrectOrNot();
+        nextQuestion();
       });
 }
 
