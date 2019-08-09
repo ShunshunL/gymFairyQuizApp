@@ -16,7 +16,7 @@ function generateQuestion() {
         return `<div class="question-${questionNumber}">
         <form>
         <fieldset>
-        <h2>${STORE[questionNumber].question}</h2>
+        <legend>${STORE[questionNumber].question}</legend>
         <label class="answerOption">
         <input type="radio" value="${STORE[questionNumber].answers[0]}" name="answer" required>
         <span class="answers">${STORE[questionNumber].answers[0]}</span>
